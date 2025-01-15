@@ -17,3 +17,10 @@ This repo is for adding source code for Sigma Web Development Course
     alert("Welcome to Sigma Web Development Course")
 8. Link js with html by adding script tag inside body
     <script src="script.js"></script>
+
+## Day 3
+Html has 2 kind of tags -
+1. Meta - self closing tag
+<meta charset="UTF-8">
+2. body, head etc - Pair tags which need to be closed
+<script src="script.js"></script>
