@@ -20,7 +20,6 @@ This repo is for adding source code for Sigma Web Development Course
 
 ## Day 3
 Html has 2 kind of tags -
-1. Meta - self closing tag
-<meta charset="UTF-8">
+1. Meta - self closing tag<meta charset="UTF-8">
 2. body, head etc - Pair tags which need to be closed
 <script src="script.js"></script>
