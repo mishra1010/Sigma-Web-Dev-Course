@@ -91,9 +91,27 @@ body
         <li>Superfast</li>
 
         <li>Delhi to Mumbai</li>
-        
+
     </ol>
 
 body
+
+## Day 6 - SEO and Core Web Vitals in HTML
+
+SEO - search engine optimization - Google ranks pages based on vitals after content which is the main component used by search engines. In case 2 web sites have same content then vitals help in ranking
+Important Vitals
+CLS - Cumulative layout shift (How much the page shifts while loading contents)
+LCP - Largest contentful paint (how much time does the biggest element in page take to load)
+FID - First input delay (Any input from user gets processed in how much time)
+
+Lighthouse in browser can give a vitals report
+
+Analyze in lighthouse for index.html
+
+## Day 7 - Forms and Input tags
+
+
+
+
 
 
