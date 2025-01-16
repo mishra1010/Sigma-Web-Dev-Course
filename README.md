@@ -24,11 +24,76 @@ Html has 2 kind of tags -
 2. body, head etc - Pair tags which need to be closed
 <script src="script.js"></script>
 
-## Day 4 - 
+## Day 4
 Heading, Paragraph, Anchor tags and Links
 
 Heading - use alt+shift+down arrow to copy above line and use alt and click sections in line as needed to update all lines together.
+
 My Bookmarks - Learning
+
 Main Bookmarks - Learning
+
 Secondary Bookmarks - Learning
+
+## Day 5
+Image, List and Tables
+body
+
+    img src="image.png" alt="Train image"
+    img width="230" height="230" src="image.png" alt="Train image"
+
+    <table>
+
+        <tr>
+
+            <th>Train Name</th>
+
+            <th>Train Number</th>
+
+            <th>Train Type</th>
+
+            <th>Train Route</th>
+
+        </tr>
+
+        <tr>
+
+            <td>Shatabdi Express</td>
+
+            <td>12002</td>
+
+            <td>Superfast</td>
+
+            <td>Delhi to Mumbai</td>
+
+        </td>
+
+    </table>
+
+    <ul>
+
+        <li>Shatabdi Express</li>
+
+        <li>12002</li>
+
+        <li>Superfast</li>
+
+        <li>Delhi to Mumbai</li>
+
+    </ul>
+
+    <ol>
+
+        <li>Shatabdi Express</li>
+
+        <li>12002</li>
+
+        <li>Superfast</li>
+
+        <li>Delhi to Mumbai</li>
+        
+    </ol>
+
+body
+
 
