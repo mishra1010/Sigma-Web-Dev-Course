@@ -109,7 +109,9 @@ Lighthouse in browser can give a vitals report
 Analyze in lighthouse for index.html
 
 ## Day 7 - Forms and Input tags
-
+form action = post
+Div, textbox, checkbox, radiobutton
+textarea, options
 
 
 
