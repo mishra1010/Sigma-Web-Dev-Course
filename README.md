@@ -113,6 +113,10 @@ form action = post
 Div, textbox, checkbox, radiobutton
 textarea, options
 
+## Day 8 - Inline and Block Elements
+div, paragraph are block
+span and anchor are inline
+
 
 
 
