@@ -117,6 +117,11 @@ textarea, options
 div, paragraph are block
 span and anchor are inline
 
+## Day 9 - Id and Classes in HTML
+ID = Identity which is always unique
+Class = Helps in classifying, same element can have multiple classes and same class can have multiple elements
+Id and class are attributes for elements Div, span etc. elements in html
+Id is also used for linking by using #id in the URL
 
 
 
