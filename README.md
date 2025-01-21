@@ -123,6 +123,7 @@ Class = Helps in classifying, same element can have multiple classes and same cl
 Id and class are attributes for elements Div, span etc. elements in html
 Id is also used for linking by using #id in the URL
 
+## Day 10 - Audio, Video and Media in HTML
 
 
 
