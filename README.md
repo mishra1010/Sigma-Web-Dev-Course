@@ -124,6 +124,14 @@ Id and class are attributes for elements Div, span etc. elements in html
 Id is also used for linking by using #id in the URL
 
 ## Day 10 - Audio, Video and Media in HTML
+video src = "video.mp4" controls autoplay
+autoplay,muted,loop, poster or thumbnail are some of the controls for video
+Audio also has the same set of controls
+Preload - none, auto,meta
+svg image
+iframe
 
+## Day 11 - Semantic tags in HTML
+Important for SEO
 
 
