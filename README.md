@@ -143,3 +143,5 @@ you have 12 files ; 6 audio and 6 video
 Design a website using HTML only which shows these 12 files
 1.mp3, 2.mp3 .... 6.mp3
 1.mp4, 2.mp4 .... 6.mp4
+Use div to show all audio and use div to show all video
+paragraph or list way is also OK
