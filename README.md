@@ -133,5 +133,13 @@ iframe
 
 ## Day 11 - Semantic tags in HTML
 Important for SEO
+These tags help browsers and search engines about the content type and purpose. Also helps with accessibility.
+If we do not use this also, it should not impact, just we want to make search engines better
+header, footer, nav, article, section, aside, figure, main, time
 
+## Day 12 - Exercise
 
+you have 12 files ; 6 audio and 6 video
+Design a website using HTML only which shows these 12 files
+1.mp3, 2.mp3 .... 6.mp3
+1.mp4, 2.mp4 .... 6.mp4
