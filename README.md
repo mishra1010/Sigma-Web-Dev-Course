@@ -155,3 +155,13 @@ Entities are mainly meant for escaping html syntax
 <backquote></backquote>
 <code></code>
 Canvas
+
+## Day 14 - CSS - cascading style sheets
+Selector
+ #<title>CSS</title>
+  # <style>
+  #     div { ---------------------------------> selector
+   #        color: red; ---------------------> declaration
+   #        background-color: yellow
+   #    }
+   #</style>
