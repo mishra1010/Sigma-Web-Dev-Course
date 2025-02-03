@@ -145,3 +145,13 @@ Design a website using HTML only which shows these 12 files
 1.mp4, 2.mp4 .... 6.mp4
 Use div to show all audio and use div to show all video
 paragraph or list way is also OK
+
+## Day 13 - Entities, Code tag and more
+Entities are mainly meant for escaping html syntax
+&lt;
+&gt;
+&npsp;
+<pre></pre>
+<backquote></backquote>
+<code></code>
+Canvas
