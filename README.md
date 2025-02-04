@@ -165,3 +165,78 @@ Selector
    #        background-color: yellow
    #    }
    #</style>
+
+## Day 15 - Inline, Internal and External CSS
+Inline - <h1 style="color: yellow;background-color: red">Great learning</h1>
+Avoid using it
+
+Internal -<h2> Inrternal CSS</h2> -------> body
+head ------ <style>
+        h2{
+            color: blue;
+            background-color: yellow;
+        }
+    </style>
+
+    We can do bulk edits here as compared to inline css. We need external css as we do not want too much css in html file if our program grows
+Less change and small files
+External - 
+
+Production application
+
+## Day 17 - CSS Selectors MasterClass
+Element Selector - All elements like div, h1, h2 etc get the same css applied
+Better to use Class Selectors, id selectors
+Class Selector - instead of element, uses class. Ex - red
+ .red{
+            color: blue
+        }
+    </style>
+</head>
+<body>
+    <div class = "red">
+        I am a div
+    </div>
+
+Id selector
+#green{
+            color: green;
+        }
+
+         <div id = "green">
+        I am another div
+    </div>
+
+Child Selector
+div > p{
+    color: x;
+    background-color: xx;
+}
+Descendant Selector
+div  p{
+    color: x;
+    background-color: xx;
+}
+
+Universal Selector
+*{
+    margin:0;
+    padding: 0;
+}
+
+Pseudo Selector
+    a:visited{
+            color: red;
+        }
+        a:link{
+            color: greenyellow;
+        }
+        a:active{
+            background-color: purple;
+        }
+        div:hover{
+            background-color: blue;
+        }
+
+    
+https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTVoYmVIdWxTS2pkczEzQW5pR19aT2NoekhKUXxBQ3Jtc0trSEk3eTVxajM3cGFuallpRGNYZEYtektvMDhRTjVHNThTMTJrOTY4RVdRQVBCT25vMHo4V2FQX1o4alV2ME5FWEZMZWd6VmttNkxxM2RuSTBYWnZ1bEl2WmJJa0ZENXB1Mzh6T0RReW9jV3Y0aHozWQ&q=https%3A%2F%2Fweb.dev%2Flearn%2Fcss%2Fpseudo-classes&v=1cEG1T8beO4
