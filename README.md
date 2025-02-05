@@ -240,3 +240,13 @@ Pseudo Selector
 
     
 https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTVoYmVIdWxTS2pkczEzQW5pR19aT2NoekhKUXxBQ3Jtc0trSEk3eTVxajM3cGFuallpRGNYZEYtektvMDhRTjVHNThTMTJrOTY4RVdRQVBCT25vMHo4V2FQX1o4alV2ME5FWEZMZWd6VmttNkxxM2RuSTBYWnZ1bEl2WmJJa0ZENXB1Mzh6T0RReW9jV3Y0aHozWQ&q=https%3A%2F%2Fweb.dev%2Flearn%2Fcss%2Fpseudo-classes&v=1cEG1T8beO4
+
+## Day 18 - CSS Box Model - Margin, Padding & Borders
+Everything is a box in CSS
+Outside your content, we have padding and then margin and then border
+if we have height as 200 and then we also mention box size, the the height 200 will be padding+border+height = 200, else 200
+
+Margin Collapse -
+if we have 2 boxes with same margin then the gap between boxes is applied once as per margin and if margin is 30 and 20 for boxes respectively then 30px is the gap between box1 and box2
+
+## Day 19 - CSS Fonts, text and color properties
