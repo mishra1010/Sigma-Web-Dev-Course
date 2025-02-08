@@ -250,3 +250,49 @@ Margin Collapse -
 if we have 2 boxes with same margin then the gap between boxes is applied once as per margin and if margin is 30 and 20 for boxes respectively then 30px is the gap between box1 and box2
 
 ## Day 19 - CSS Fonts, text and color properties
+  p{
+            font-family: 'Courier New', Courier, monospace;
+            font-style: italic;
+            font-weight: bold;
+        }
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+we can also import font family in to our style tags from google with the URL for fonts or get the exact way to use it by using font-family declaration.
+Explore in google fonts
+
+font-size: 
+
+check default font-size by doing F12-> Computed, it would show 32px for h1
+font-family: 'Courier New', Courier, monospace;
+            /*font-style: italic;
+            font-weight: bold;*/
+            font-size: 20px;
+            line-height: 4;
+            letter-spacing
+
+Text properties
+               text-transform: uppercase;
+            text-decoration: underline;
+            text-decoration-color: red;
+            text-decoration-style: dotted
+        }
+        text-decoration-thickness:7px
+        text-indent:
+        text-overflow: clip or ellipses
+        text-align: center
+
+Color properties
+Available colors in css can be found at https://codepen.io/web-dot-dev/pen/ZELGraM
+Ways to show color -
+1. Color keywords
+2. Hex Color code
+3. RGB - A is alpha which is for opacity
+4. RGBA
+5. HSL - ghue, saturation, lightness
+ /*color: red*/
+            /*color: #0BEE0B;*/
+            /*color: rgb(114, 156, 55);*/
+            color: rgba(156, 97, 55, 0.336);
+            color: hsl(120, 100%, 50%);
