@@ -339,3 +339,40 @@ harryclass = 10
 rohan-class = 10
 href is attribute selector = 10
 hover is pseudo class = 10
+
+## Day 22 - CSS Sizing Units - px, rem, em, vh, vw, % and more
+
+   container{
+        box-sizing: border-box;
+        border: 2px solid black;
+        /*width: 2048px; *//*width of the box in pixel*/
+       /* width: 100vw; *//*width of the box in pixel*/
+       width: 80vw;
+       margin: 23px auto;
+        background-color: aquamarine;
+        height: 80vh;
+    }
+
+vh, vw, px, rem (root element), em (parent element)
+
+container{
+        box-sizing: border-box;
+        border: 2px solid black;
+        /*width: 2048px; *//*width of the box in pixel*/
+       /* width: 100vw; *//*width of the box in pixel*/
+       width: 80vw;
+       margin: 23px auto;
+        background-color: aquamarine;
+        height: 80vh;
+        font-size: 18px;
+    }
+    .container p{
+        font-size: 2rem;
+    }
+
+vmin, vmax - depends on the device orientation
+min-height
+
+% - not used at all places. vh and vw are used in most cases. where parent's width is set then use %
+
+
