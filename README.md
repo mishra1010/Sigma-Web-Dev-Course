@@ -296,3 +296,42 @@ Ways to show color -
             /*color: rgb(114, 156, 55);*/
             color: rgba(156, 97, 55, 0.336);
             color: hsl(120, 100%, 50%);
+
+## Day 20 - Exercise
+
+## Day 21 - CSS Sprcificity & Cascade
+Assume that we have an element that has been styled in 2 ways through CSS. So, we have used 2 types of selectors to style it.
+1. Universal
+2. h1 class
+Example
+![alt text](image.png)
+
+![alt text](image-1.png)
+How would we ensure which one gets applied? This is where specificity plays a role and we would see the rules.
+CSS has cascade algorithm which helps in deciding.
+All class selectors will have same priority and the last one would get applied
+![alt text](image-2.png)
+
+In case we use different selectors, which one gets applied in that case?
+It is based on specificity, which selector is more specific?
+inline is considered as highest priority.
+Then it's id selector which is taken as next highest priority
+Then class or attribute selector, then element and then universal
+![alt text](image-3.png)
+
+
+Inline > ID> Class or Attribute > Element > Universal
+
+![alt text](image-4.png)
+
+For overriding inline style, we add !important, then this would apply.
+
+How to calculate specificity?
+![alt text](image-5.png)
+
+![alt text](image-6.png)
+a is element, specificity =1
+harryclass = 10
+rohan-class = 10
+href is attribute selector = 10
+hover is pseudo class = 10
