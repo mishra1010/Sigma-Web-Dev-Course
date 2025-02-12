@@ -431,3 +431,31 @@ border, outline and outline-offset
 
 ## Day 25 Styling lists using CSS
 How to style lists - ol and ul?
+ nav ul li{
+            list-style: devanagari;
+            list-style-type:"१"; 
+            background-color: bisque;
+            list-style-position: inside;
+            border: 2px solid black;
+        }
+     nav
+        ul
+            li>Homeli
+            li>Aboutli
+            li>Contactli
+        ul
+    nav   
+
+    /* list-style: devanagari; */
+    /* list-style-type: "१"; */
+    /* background-color: bisque; */
+    /* list-style-position: inside; */
+    /* border: 2px solid black;
+
+    Apply the following
+        list-style: none; in li
+        padding: 23px; in li
+
+        and display: flex in ul
+
+        we get horizontal nav bar
