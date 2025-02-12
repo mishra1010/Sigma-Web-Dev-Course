@@ -392,3 +392,42 @@ inline-flex brings all elements in sameline
 Grid - also a display property
 
 ## Day 24 CSS Shadows and Outlines
+How to give shadows and outliers?
+box shadow
+ .box{
+            border: 2px solid black;
+            padding: 34px;
+            box-shadow: 5px 15px 5px #70a711;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        I am a box
+    </div>
+
+text-shadow
+
+ <style>
+        .box{
+            border: 2px solid black;
+            padding: 34px;
+            box-shadow: 5px 15px 5px #70a711;
+        }
+        .text-element{
+            text-shadow: 2px 2px 2px #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        I am a box
+    </div>
+    <p class="text-element">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum itaque velit incidunt quod, blanditiis, optio, totam voluptatum minus doloribus dolore modi deleniti?
+    </p>
+
+border, outline and outline-offset
+![alt text](image/image7.png)
+
+## Day 26 Styling lists using CSS
