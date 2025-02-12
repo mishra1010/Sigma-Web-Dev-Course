@@ -375,4 +375,19 @@ min-height
 
 % - not used at all places. vh and vw are used in most cases. where parent's width is set then use %
 
+## Day 23 CSS Display Property
+what is display property and how to change it using css?
+in html we have inline and block elements.
+For div with class box, its a block element but to make it inline we have to put inline in css box class
+With inline margin, padding does not apply on the top and hence we have to use display: inline-block
+
+Display:none -- to remove the element from display completely
+visibility: hidden - space will remain in page but the element will be hidden
+
+Flexbox - 
+display:flex;
+justify-content: center;
+inline-flex brings all elements in sameline
+
+Grid - also a display property
 
