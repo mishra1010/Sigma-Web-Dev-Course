@@ -408,7 +408,7 @@ box shadow
 
 text-shadow
 
- <style>
+
         .box{
             border: 2px solid black;
             padding: 34px;
@@ -417,17 +417,17 @@ text-shadow
         .text-element{
             text-shadow: 2px 2px 2px #ff0000;
         }
-    </style>
-</head>
-<body>
-    <div class="box">
+    
+
+    div class="box"
         I am a box
-    </div>
-    <p class="text-element">
+    /div>
+    p class="text-element"
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum itaque velit incidunt quod, blanditiis, optio, totam voluptatum minus doloribus dolore modi deleniti?
-    </p>
+    /p
 
 border, outline and outline-offset
-![alt text](image/image7.png)
+![alt text](images/image7.png)
 
-## Day 26 Styling lists using CSS
+## Day 25 Styling lists using CSS
+How to style lists - ol and ul?
