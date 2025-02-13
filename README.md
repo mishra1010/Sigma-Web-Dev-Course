@@ -459,3 +459,19 @@ How to style lists - ol and ul?
         and display: flex in ul
 
         we get horizontal nav bar
+
+## Day 26 CSS Overflow property
+we have a box and content is more than the box can handle, then overflow happens.
+            width: 20vw;
+            height: 10vh;
+            border: 2px solid black;
+            overflow: scroll;
+
+overflow can be auto for detecting if a scroll is needed then it would show.
+
+white-space: nowrap; - keeps horizontal scroll
+text-overflow: ellipsis; - adds ellipsis in text
+overflow-x:hide;
+overflow-y:auo
+overflow: scroll hidden - for x and y together
+
