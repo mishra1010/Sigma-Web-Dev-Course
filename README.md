@@ -489,3 +489,16 @@ overflow: scroll hidden - for x and y together
             background-color: blue;
             color: white;
         } */
+
+## Day 28 CSS position property
+Position is static by default and we cannot use top, left or right with this as it won't make any changes.
+To make use of top, letf, right or z-index, we use 
+position:relative;
+
+position:absolute; - box or any other element searches for nearest parent which is positioned and then aligns based on the parent.
+position:fixed; - element gets fixed and does not move even if we scroll down or up
+position:sticky; - it sticks to a position and all other elements would be aligning based on this element, eg- while we scroll.
+transform, filter or perspective properties can also make an element appear as positioned
+transform: translate(0);
+filter:invert(0);
+perspective:0em;
