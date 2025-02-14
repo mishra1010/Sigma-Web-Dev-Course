@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            background-color: blue;
+            color: white;
+        }
+        div p:first-child{
+            background-color: yellow;
+            color: red;
+        }
+        /* Here if we want to not give any style for paragraph first then we can give the following style
+        div p:not(:first-child){
+            background-color: blue;
+            color: white;
+        } */
+    </style>
+</head>
+<body>
+   <!-- Write html and css code to style a paragraph inside a div which contains 5 other paragraphs. The first paragraph must have a background color yellow and text color red. The other parahgraphs must have a background color blue and text color white.----> 
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptas cum! Illo tenetur hic odio ullam soluta et perferendis iure. Sit beatae nisi, eos dignissimos vel consequuntur voluptate ullam iusto.</p>
+        <p>I am another para</p>
+        <p>I am also another para</p>
+        <p>I am 4th Paragraph</p>
+        <p>I am 5th paragraph</p>
+    </div>
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ipsam quam harum vel animi impedit ipsum! Ducimus consequatur magni nulla consectetur, exercitationem sit deserunt eveniet maiores molestiae commodi dignissimos reiciendis!</p>
+    </div>
+</body>
+</html>

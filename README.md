@@ -472,6 +472,20 @@ overflow can be auto for detecting if a scroll is needed then it would show.
 white-space: nowrap; - keeps horizontal scroll
 text-overflow: ellipsis; - adds ellipsis in text
 overflow-x:hide;
-overflow-y:auo
+overflow-y:auto
 overflow: scroll hidden - for x and y together
 
+## Day 27 Exercise 20 solution
+  p
+            background-color: blue;
+            color: white;
+        
+        div p:first-child
+            background-color: yellow;
+            color: red;
+        
+        /* Here if we want to not give any style for paragraph first then we can give the following style
+        div p:not(:first-child){
+            background-color: blue;
+            color: white;
+        } */
