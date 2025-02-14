@@ -502,3 +502,9 @@ transform, filter or perspective properties can also make an element appear as p
 transform: translate(0);
 filter:invert(0);
 perspective:0em;
+
+## Day 29 - Exercise 3
+Solve ![alt text](image8.png)
+
+## Day 30 CSS Variables
+
