@@ -537,3 +537,16 @@ Usage
 
 we can store any properties in variables and then call that variable. example - color, padding, opacity etc.
 
+## Day 31 CSS Media Queries
+
+Media Queries are helpful in making our websites responsive for any devices.
+Examples
+ media screen and (orientation: landscape){
+            body{
+                border: 2px solid purple;
+            }
+        }
+        media only screen and (max-width: 455px){
+            body{
+                background-color: red;
+            }
