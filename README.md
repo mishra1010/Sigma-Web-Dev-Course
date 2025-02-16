@@ -507,4 +507,33 @@ perspective:0em;
 Solve ![alt text](image8.png)
 
 ## Day 30 CSS Variables
+we can declare variables in css and use it in various classes by declaring
+root variables
+ :root
+            --color: blue;
+            --seccolor: rgb(131, 114, 151);
+            --defpad: 34px;
+        
+Usage
+   .nav
+            /*background-color: aqua;*/
+            background-color: var(--color);
+        
+        ul
+            display: flex;
+        
+        ul li
+            list-style: none;
+            padding: var(--defpad);
+            border: 2px solid var(--seccolor);
+        
+        ul li:first-child
+            --color: rgba(156, 151, 101, 0.5);
+            background-color: var(--color);
+        
+        .container
+           /* background-color: burlywood;*/
+              background-color: var(--seccolor);
+
+we can store any properties in variables and then call that variable. example - color, padding, opacity etc.
 
