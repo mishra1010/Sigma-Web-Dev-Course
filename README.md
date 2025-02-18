@@ -563,4 +563,5 @@ multicolor navbar using css variables.
 Float and clear are less used since Flex has been introduced but it is important to understand what they are.
 float: left or right -> puts an image or content on left or right
 clear: will not allow the image to show up in the right or left if given clear:both
-Not recommended for use bot clear and float. Flexbox is used.
+Not recommended for use bot clear and float for modern websites. Flexbox is used.
+Overflow can be removed by using display: flow-root. There are other ways as well.
