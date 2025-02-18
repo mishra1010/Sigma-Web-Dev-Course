@@ -553,3 +553,8 @@ Examples
 
 ## Day 32 - Exercise 3 Solution
 Solution available in Day 32 folder
+
+## Day 33 - Exercise 4
+Multi Color Website
+Design a navbar and after that make a stylesheet where on changing a variable, the color contrast should change. So, we need to do a
+multicolor navbar using css variables.
