@@ -550,3 +550,6 @@ Examples
             body{
                 background-color: red;
             }
+
+## Day 32 - Exercise 3 Solution
+Solution available in Day 32 folder
