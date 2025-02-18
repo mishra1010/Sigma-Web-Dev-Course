@@ -558,3 +558,9 @@ Solution available in Day 32 folder
 Multi Color Website
 Design a navbar and after that make a stylesheet where on changing a variable, the color contrast should change. So, we need to do a
 multicolor navbar using css variables.
+
+## Day 34 - CSS Float and Clear
+Float and clear are less used since Flex has been introduced but it is important to understand what they are.
+float: left or right -> puts an image or content on left or right
+clear: will not allow the image to show up in the right or left if given clear:both
+Not recommended for use bot clear and float. Flexbox is used.

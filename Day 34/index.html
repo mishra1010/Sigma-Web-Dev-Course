@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float and Clear</title>
+    <style>
+        .cards{
+            border: 2px solid black;
+            display: flow-root
+        }
+        img{
+            float: right;
+        }
+        .card{
+            border: 2px solid red;
+        }
+        .card:nth-child(3){
+            background-color: turquoise;
+            clear: right;
+        }
+    </style>
+</head>
+
+<body> <!--/*.cards>.card*3 -> gives the following 3 divs*/-->
+    <div class="cards">
+        <img src="../Day 32/card.png" alt="" width="230">
+        <div class="card">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae non eos porro et est soluta incidunt, debitis labore, blanditiis exercitationem numquam. Consequuntur blanditiis exercitationem a, voluptatum aliquam amet cumque optio similique quam ullam?</div>
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quasi labore, repellendus consequuntur ullam deserunt voluptatem incidunt magni voluptas quae eum quos ratione quod ea, vel eaque in amet culpa eligendi possimus sint autem iusto expedita optio! Officia voluptatem modi sequi, earum harum cum atque eius. Soluta, in labore quasi deleniti voluptatum sapiente nesciunt ducimus modi voluptatibus fuga nisi cumque veniam odio commodi nulla? Quidem animi commodi minima quis perspiciatis doloribus numquam ipsa. Vel, dolores, odio cupiditate assumenda aut mollitia commodi, tempora id reprehenderit consectetur expedita necessitatibus neque. Vitae, dignissimos? Aspernatur hic, consectetur iusto ab dolorem veniam voluptatibus libero fuga repellendus itaque molestias eligendi illum recusandae numquam alias nostrum. Autem ab dignissimos cupiditate. Natus vero praesentium accusamus autem quam quisquam fugit, vel necessitatibus tempora mollitia, molestiae voluptate illum dicta. Est illo at excepturi distinctio adipisci obcaecati commodi nemo! Repellendus vitae similique eos veritatis mollitia rem commodi exercitationem, perferendis nobis excepturi inventore beatae facere veniam id, vel est praesentium fuga! Adipisci consequuntur accusamus modi fuga iusto aspernatur, assumenda similique quaerat esse possimus corrupti pariatur obcaecati error eius unde laboriosam sed voluptatibus commodi non fugiat aut id. Alias, cupiditate corporis cumque modi nulla animi facere perferendis eligendi porro repellat quas corrupti veniam quaerat quasi numquam. Itaque neque dolores aperiam, corrupti assumenda repudiandae earum ipsum deserunt impedit laborum explicabo illum unde nisi iusto suscipit quidem nobis dolore! Natus voluptatibus eveniet eum voluptas laboriosam obcaecati! Laborum deleniti molestias vitae reprehenderit, sequi fuga numquam? Eligendi quod quisquam recusandae rerum sit illo nostrum aliquam provident nulla harum ex dolorum non aut eum facere, perspiciatis quos voluptatem possimus, perferendis obcaecati tempore, enim ratione nobis nihil. Totam voluptatibus ut aspernatur omnis nam animi, voluptatum eum laborum labore blanditiis nisi dolore, fugit recusandae quae iure quasi eveniet dolorem? Nulla porro, expedita neque ea, pariatur nam aspernatur quibusdam necessitatibus odit itaque maxime ex architecto est illo. Officia, voluptas non maiores amet voluptatibus voluptate quam nihil quos vero ipsam quisquam assumenda deleniti, alias ut harum eligendi at inventore laudantium maxime ex dolor quas! Error?</div>
+        <div class="card">Card 3</div>
+    </div>
+</body>
+</html>
