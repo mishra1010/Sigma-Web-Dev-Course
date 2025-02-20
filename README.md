@@ -565,3 +565,41 @@ float: left or right -> puts an image or content on left or right
 clear: will not allow the image to show up in the right or left if given clear:both
 Not recommended for use bot clear and float for modern websites. Flexbox is used.
 Overflow can be removed by using display: flow-root. There are other ways as well.
+
+## Day 35 - More on Selectors
+ /* .box:first-child
+            background-color: red;
+        
+       /* .box::first-line
+            color:yellowgreen
+        
+        apply inside boxes
+        .boxes *
+            color: blue;
+            border: 2px solid red;
+        
+        attribute selector and grouping of selectors
+        p, a, .box, [data-color="primary"]
+            background-color: yellow;
+         .box:nth-child(odd)
+            background-color: yellow;
+
+        .box:nth-last-child(1)
+            background-color: yellow;
+        
+        .boxes::after
+            content: "I am after content";
+            color: blue;
+         .boxes::before
+            content: "I am before content";
+            color: red;
+
+        selection{
+            background-color: yellow;
+        box::first-letter{
+            color: peru;
+            
+        input::placeholder
+            color: rgb(138, 142, 154);
+            font-size: 20px;
+        
