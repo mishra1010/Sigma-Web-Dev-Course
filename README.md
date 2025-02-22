@@ -603,3 +603,6 @@ Overflow can be removed by using display: flow-root. There are other ways as wel
             color: rgb(138, 142, 154);
             font-size: 20px;
         
+## Day 36 - Exercise Day 33 Solution
+Create a multicolor website which can change color using CSS variables
+solution available in Day 36 folder
