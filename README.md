@@ -606,3 +606,14 @@ Overflow can be removed by using display: flow-root. There are other ways as wel
 ## Day 36 - Exercise Day 33 Solution
 Create a multicolor website which can change color using CSS variables
 solution available in Day 36 folder
+
+## Day 37 - Exercise
+Design Layout
+Screen -> Navbar
+2 boxes below navbar with background color in main box and the 2 boxes
+1 rectangle with text - Welcome to this Express Course
+below this put an icon
+when you scroll, the icon and nav bar should remain in their positions
+Footer
+![alt text](images/image9.png)
+
