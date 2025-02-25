@@ -617,3 +617,31 @@ when you scroll, the icon and nav bar should remain in their positions
 Footer
 ![alt text](images/image9.png)
 
+## Day 38 - CSS Flexbox
+History - Earlier we were using float, position and it was difficult to bring a div at the center for devs, hence we needed a mechanism to have content at the sides and center in the layout. So, flexbox was added.
+display flex means now we can use the properties of flexbox
+It aligns elements from left to right by default.
+bring items to center by using justify-content:center
+To bring items vertically center - use align-item: center
+Most of the times, above is used in projects
+flex-end - takes elements to end, there are other properties in justify-content
+Changing align-items - flex-start, flex-end, center etc.
+
+Concepts -
+1. Flex direction - by default left to right
+2. can be changes to top to bottom
+for arranging items in columns - we use Flex-direction: column
+justify-content: center brings items to center based on main axis
+we have main-start, main-end in case of left to right (row) and top to bottom (column)
+
+Flex-Wrap : when we give lots of elements it would lead to overflow, flex-wrap helps in wrapping the content to below row or another column.
+align-content: center is used when we have multiple lines in row when items are wrapped.
+align-item is used when we have only one line.
+It is important to understand the container properties and item properties. All above were container properties
+Item properties are -
+order
+default order is 0 and higher order comes at the end
+flex-grow
+flex-shrink
+align-self - owberwrite particular item alignment
+
