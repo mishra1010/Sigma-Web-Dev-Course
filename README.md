@@ -645,3 +645,28 @@ flex-grow
 flex-shrink
 align-self - owberwrite particular item alignment
 
+## Day 39 - CSS Grid
+One of the ways to make a layout as floats and positioning are confusing and there are scenarios where css grid can be directly applied.
+display: grid
+and then we can define the number of col and rows
+Grid line is all line which are there based on the number of cells
+Grid cell - one cell in the grid
+Grid Track - space between 2 grid lines
+Grid Area - any area inside the grid, if we take 2 lines in horizontal and 2 lines in vertical, its called grid area
+
+![alt text](images/image10.png)
+
+Grid lines are numbered. and we can also give names instead of numbers if needed
+
+Another way to use Grids is via Grid Template Areas by naming
+![alt text](images/image11.png)
+
+frunit - fr is a unit which is used in grid. Instead of px we can use fr
+which means if width is 80vw, then 1fr 1fr 1fr would divide the available width as 1/3 for each portion.
+gap - creates gaps in the grids for row and col
+justify-items:center
+align-items: center ----> needs height to be declared
+minmax
+place-content: center puts all the grids in center (works as both justify and align content)
+justify-content (width), align-content (height) is applicable when container is larger than the grid and then grid moves
+if we want to move content within cells, then use align-items, justify-items
