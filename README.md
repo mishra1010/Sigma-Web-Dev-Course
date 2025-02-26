@@ -670,3 +670,6 @@ minmax
 place-content: center puts all the grids in center (works as both justify and align content)
 justify-content (width), align-content (height) is applicable when container is larger than the grid and then grid moves
 if we want to move content within cells, then use align-items, justify-items
+
+## Day 40 - Exercise Day 37 sol
+solution available in Day 40 folder
