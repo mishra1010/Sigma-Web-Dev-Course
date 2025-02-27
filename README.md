@@ -673,3 +673,25 @@ if we want to move content within cells, then use align-items, justify-items
 
 ## Day 40 - Exercise Day 37 sol
 solution available in Day 40 folder
+
+## Day 41 - Exercise 6 using Flexbox
+Design website Navbar using Flexbox from UltraEdit website
+
+## Day 42 - CSS transforms masterclass
+1. 2D Transforms - inc scale, translate, rotate, 
+2. 3D Transforms
+
+![alt text](images/image12.png)
+
+![alt text](images/image13.png)
+
+            /*transform: rotate(45deg);*/
+           /* transform: rotate(0.25turn);*/
+            transform: rotateZ(95deg);
+            transform: scale(1.6)
+            transform: scaleY(1.6)
+            transform: scale3d(1.6)
+            transform: skew(5deg) -> skew cannot happen in Zaxis
+            transform: translateX(10%)
+            transform: translateY(10%)
+            transform-origin: -(0 -0) use along with transform: rotate(30deg)
