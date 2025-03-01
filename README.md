@@ -695,3 +695,6 @@ Design website Navbar using Flexbox from UltraEdit website
             transform: translateX(10%)
             transform: translateY(10%)
             transform-origin: -(0 -0) use along with transform: rotate(30deg)
+
+## Day 43 - Solution for Exercise 6 - Navbar using flexbox
+solution available in Day 43 folder
