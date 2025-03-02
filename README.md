@@ -726,3 +726,33 @@ transition-property: transform; or use all
             transition-delay: 1s;
 
 we can also use - transition: all 3s ease-in-out 1s; this includes all properties at once
+
+## Day 46 - CSS Animations
+
+Similar to transitions but it helps in changing more properties and when and how properties can be used
+For animations - we use key frames
+
+.box{
+            background-color: aqua;
+            height: 45px;
+            width: 34px;
+            animation: name duration timing-function delay iteration-count direction fill-mode;
+        }
+        @keyframes deepakKaAnimation{
+            from{
+
+            }
+            to{
+                transform: translateX(1000px)
+            }
+        }
+
+For simple functionality - use transitions. Animations can be used for complex or repeatable activities
+
+we can give properties one by one or we can also give in the following way -
+animation: name duration timing-function delay iteration-count direction fill-mode;
+
+animation: fill-mode - used for animations which are repeatable
+animation-fill-mode: backwards; - repeats as needed and then retains the form
+
+We can use one animation to animate multiple properties. Multiple animations can also be used
