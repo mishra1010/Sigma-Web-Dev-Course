@@ -698,3 +698,31 @@ Design website Navbar using Flexbox from UltraEdit website
 
 ## Day 43 - Solution for Exercise 6 - Navbar using flexbox
 solution available in Day 43 folder
+
+## Day 44 - Design the Grid Exercise
+   <!-- Design the body of this website
+     https://www.ultraedit.com/downloads/ultraedit-download-thank-you/-->
+     Design using CSS Grid
+
+## Day 45 - CSS Transition Property
+
+Moving from one property to another smoothly is done by transition.
+we click on side bar, is it better if side bar loads smoothly or just like that. This is where CSS transition is used
+
+if we put the following for a box in a container, the translation happens but it is not smooth. So, we are going to make it smooth.
+translate{
+            transform: translateX(50%) translateY(50%)
+        }
+
+so, we will use transition which is made up of 4 properties.
+transition-property
+transition-duration
+transition-timing-function
+transition-delay
+
+transition-property: transform; or use all
+            transition-duration: 3s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 1s;
+
+we can also use - transition: all 3s ease-in-out 1s; this includes all properties at once
