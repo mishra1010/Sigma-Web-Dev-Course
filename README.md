@@ -756,3 +756,14 @@ animation: fill-mode - used for animations which are repeatable
 animation-fill-mode: backwards; - repeats as needed and then retains the form
 
 We can use one animation to animate multiple properties. Multiple animations can also be used
+
+## Day 47 - Exercise Day 44 solution
+Using grid to design ultraedit website body
+
+## Day 48 - Exercise 
+Use animation or transition to bounce the red ball
+
+## Day 49 - CSS Object-fit and Object-cover
+sometimes we have to keep an image inside a container so that the aspect ratio is maintained and image completely fits
+in the container
+So, we use Object-fit and Object-cover
