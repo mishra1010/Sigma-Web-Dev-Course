@@ -767,3 +767,11 @@ Use animation or transition to bounce the red ball
 sometimes we have to keep an image inside a container so that the aspect ratio is maintained and image completely fits
 in the container
 So, we use Object-fit and Object-cover
+object-fit: contain or cover - helps to contain an image in a box but truncates to manage aspect ratio
+if we want to truncate a selected part then we have to give object-position
+object-position: top right -> shows everything available in top right and cuts other positions.
+
+We have an option to give background-image in container instead of giving the image in the body.
+background-position
+background-repeat
+background-clip
