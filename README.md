@@ -775,3 +775,20 @@ We have an option to give background-image in container instead of giving the im
 background-position
 background-repeat
 background-clip
+
+## Day 50 - CSS Filters
+Brightness, contrast, inverting an image are some of CSS filters
+
+      img{
+            filter:blur(5px);
+        }
+        .img1{
+            filter: brightness(60%);
+        }
+        .img2{
+            filter: brightness(150%);
+        }
+        .img3{
+            filter: contrast(250%);
+            filter: grayscale(100%);
+        }

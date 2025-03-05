@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Filters</title>
+    <style>
+        img{
+            filter:blur(5px);
+        }
+        .img1{
+            filter: brightness(60%);
+            filter: sepia(100%);
+           /* filter: opacity(0.000005%);*/
+        }
+        .img2{
+            filter: brightness(150%);
+            filter: invert(1);
+        }
+        .img3{
+            filter: contrast(250%);
+            filter: grayscale(100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="img1" src="https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="">
+        <img class="img2" src="https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="">
+        <img class="img3" src="https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="">
+    </div>
+</body>
+</html>
