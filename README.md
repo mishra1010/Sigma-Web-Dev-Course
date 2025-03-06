@@ -792,3 +792,14 @@ Brightness, contrast, inverting an image are some of CSS filters
             filter: contrast(250%);
             filter: grayscale(100%);
         }
+
+## Day 51 - Exercise Day 48 solution
+solution is in Day 51
+
+## Day 52 - Figma basics
+
+## Day 53 - Netflix clone project
+Dev in progress in Day 53
+
+## Day 54 - Javascript Introduction
+
