@@ -802,4 +802,5 @@ solution is in Day 51
 Dev in progress in Day 53
 
 ## Day 54 - Javascript Introduction
-
+how to call JS from html
+script src="script.js"
