@@ -804,3 +804,25 @@ Dev in progress in Day 53
 ## Day 54 - Javascript Introduction
 how to call JS from html
 script src="script.js"
+
+## Day 55 - JS variables, data types and objects
+var, let , const
+
+Var should not be used always and we use let
+variables are case sensitive
+var x
+var y
+var 55a -> is not possible
+
+var is globally scoped while let and const are block scoped
+const cannot be changed once declared
+
+Objects and Primitive data types
+primitive data types - Null, Number, String, Symbol, Undefined, Boolean, BigInt
+typeof null is a object as it's declared as object when JS started and there are lots of dependencies on this, hence it was never changed to null.
+
+Object - key/value pair combination
+let o = {
+    "name": "X";
+    "job code": 200
+}
