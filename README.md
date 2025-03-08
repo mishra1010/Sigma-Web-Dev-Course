@@ -826,3 +826,26 @@ let o = {
     "name": "X";
     "job code": 200
 }
+
+## Day 56 - JS conditionals
+== -> checks value
+=== -> checks type and value
+? -> ternary operator
+Multiline comment  /* */ or // -> select ctrl and fwd slash for a number of rows in vs code
+if
+else if
+else
+
+a = 15;
+ b = 6;
+let c = a>b ? (a-b) : (b-a);
+console.log(c);
+
+/* translates to
+ if (a>b){
+    let c = a+b;
+ }
+ else{
+    let c = a-b;
+ }
+ */
