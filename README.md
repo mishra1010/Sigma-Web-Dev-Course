@@ -863,3 +863,15 @@ console.log(c);
 
  function invocation or execution
 
+ ## Day 59 - Exercise
+ Make a faulty calculator
+
+This faulty calculator does the following -
+1. It takes 2 numbers as input from user
+2. It persorms wrong operatios as follows -
++ -> -
+* -> +
+- -> /
+/ -> **
+
+It performs wrong operations 10% of the times
