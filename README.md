@@ -849,3 +849,7 @@ console.log(c);
     let c = a-b;
  }
  */
+
+ ## Day 57 - JS loops
+ Automate repeatitive tasks
+ for, forin, forof, while, dowhile
