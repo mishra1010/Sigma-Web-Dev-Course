@@ -853,3 +853,13 @@ console.log(c);
  ## Day 57 - JS loops
  Automate repeatitive tasks
  for, forin, forof, while, dowhile
+
+ ## Day 58 - JS Functions
+ When we have repeatitive code, then we package code in functions. We can also pass arguments with the help of functions.
+ pass arguments
+ return result
+ if we pass undefined in arguments, we get NAN in result. NAN is not a number
+ arrow function
+
+ function invocation or execution
+
