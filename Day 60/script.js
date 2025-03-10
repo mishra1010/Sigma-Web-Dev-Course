@@ -1,0 +1,21 @@
+console.log("Tutorial on Strings");
+let a = "Deepak";
+console.log(a[0]);
+console.log(a[1]);
+console.log(a[2]);
+console.log(a[3]);
+console.log(a[4]);
+console.log(a[5]);
+//console.log(a[6]);
+console.log(a.length);
+let real_name="Ann";
+let friend = "Tom";
+//template literals - variables inserted in string in the below form is called string interpolation
+console.log(`My real name is ${real_name} and my friend's name is ${friend}`);
+console.log(friend.toUpperCase());
+console.log(friend.length);
+console.log(friend.toLowerCase());
+console.log(a.slice(1,5));
+console.log(a.slice(1));
+console.log(a.replace("Dee", "Roh"));
+console.log(a.concat(real_name));

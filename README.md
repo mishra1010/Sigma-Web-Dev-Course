@@ -875,3 +875,18 @@ This faulty calculator does the following -
 / -> **
 
 It performs wrong operations 10% of the times
+
+## Day 60 - JS Strings
+string - uppercase, lower case
+find particular character occurence
+array index out of biunds is shown as Undefined here. so its called a forgiving language. if we miss ";", then also it does not error out.
+Template literal
+Escape sequence \n \t
+Strings are immutable. string cannot be changed when already declared in memory. Always new strings are created
+charAt()
+indexOf()
+toUpper()
+toLower()
+slice()
+startsWith()
+endsWith()
