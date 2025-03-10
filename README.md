@@ -890,3 +890,27 @@ toLower()
 slice()
 startsWith()
 endsWith()
+
+## Day 61 - solution of Day 59
+we can use ${eval('${a} ${c} ${b}')}
+available in Day 61 folder
+
+## Day 62 - Exercise - Business Name generator
+Create a business name generator by combining list of adjectives and shop name and another word
+Adjectives
+crazy
+amazing
+fire
+
+shop name:
+Engine
+Foods
+Garments
+
+Another Word:
+Bros
+Limited
+Hub
+Example - crazy engine hub
+
+do not use arrays
