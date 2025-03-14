@@ -914,3 +914,29 @@ Hub
 Example - crazy engine hub
 
 do not use arrays
+
+## Day 63 - Javascript Arrays
+store multiple values under one variable
+add elements to array which changes the length of the array
+print specific values of array. arr[2]
+We can also change values at specific index in an array but in case of strings we cannot do this as strings are immutable
+Arrays are mutable and they have lots of methods.
+typeof array is object
+arr.pop(2) -> pops out second index element
+arr.shift() removes element in front
+delete deletes the specific index element
+concat() concatenates arrays
+arr.concat(a1,a2) -> returns a new array
+sort() -> sorts
+splice(1,3,222,333) -> helps to remove 1 and 2 index and add 222 and 333to the array in these indexes
+slice() -> slices out a piece from an array
+reversearray
+
+for
+foreach
+forin
+forof
+map
+reduce
+filter
+Array.from("Test")
