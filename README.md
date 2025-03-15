@@ -940,3 +940,8 @@ map
 reduce
 filter
 Array.from("Test")
+
+## Day 64 - solution for Day 62 exercise
+Available in folder 64
+use if and else with random for soncatenating the 3 names
+use object for production grade solution where we can use keys and values 
