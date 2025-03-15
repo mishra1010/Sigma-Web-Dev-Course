@@ -945,3 +945,8 @@ Array.from("Test")
 Available in folder 64
 use if and else with random for soncatenating the 3 names
 use object for production grade solution where we can use keys and values 
+
+## Day 65 Exercise
+Write a program to calculate factorial of a number using reduce and for loops
+6! = 6*5*4*3*2*1
+use for and reduce
