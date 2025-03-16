@@ -1030,3 +1030,65 @@ then get all details regarding tables
 
  table.rows
 
+## Day 68 - JS - select by Ids, classes and more
+
+In JS, there are meny methods to search the DOM, like 
+
+getelementbyID()
+
+ElementbyclassName()
+
+document.querySelector()
+
+apply changes by class
+
+let boxes = document.getElementsByClassName("box");
+console.log(boxes);
+
+boxes[2].style.backgroundColor = "red";
+
+Now, apply changes by using id in html
+
+ div id = "redbox" class="box">Deepak Mishra 
+
+document.getElementById("redbox").style.backgroundColor = "red";
+
+DOM elements are mostly used when the elements are closer to each other in the page like parent, sibling, child etc.
+
+id is always unique
+
+we can also use query selector to get the same background color for a box
+
+document.querySelector(".box").style.backgroundColor = "green";
+
+only matches the first selector and makes it green. if we want all boxes to be green then in that case -
+
+document.querySelectorAll(".box") -> returns a html collection when we do console log and we cannot do a .style.background Color to set all boxes green as htmlcollection.style is not a valid one.
+
+So, use for loop to access all the elements in the html collection
+
+
+document.querySelectorAll(".box").forEach(e=>{
+   e.style.backgroundColor = "green";
+
+
+Get elements by tag name
+
+document.getElementsByTagName("div")
+HTMLCollection(7) [div.container, div.box, div.box, div.box, div#redbox.box, div.box, div.box, redbox: div#redbox.box]
+
+Matches - returns if class or id matches for the element
+
+Closest - checks parent or child and outputs nearest match
+
+Contains
+
+document.querySelector("body").contains(document.querySelector("container"))
+false
+
+document.querySelector("body").contains(document.querySelector(".container"))
+true
+
+## Javascript - Day 69, solving Day 65 exercise
+
+Factorial problem solved in Day 69 folder
