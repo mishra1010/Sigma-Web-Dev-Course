@@ -1092,3 +1092,7 @@ true
 ## Javascript - Day 69, solving Day 65 exercise
 
 Factorial problem solved in Day 69 folder
+
+## Javascript - Day 70 Exercise
+
+Given 5 boxes, assign a random background color to each box using Dom concepts
