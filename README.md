@@ -971,3 +971,62 @@ Document -> Root Element
 Root Element -> Element Head, Element body
 Element Head -> Element Title -> Title
 Element body -> Element h1 -> text, Element p->text
+
+## Day 67 - JS Dom - Children, parent and Sibling nodes
+we will check how to addess nodes, parents and siblings and how to access and change styles of these elements.
+
+firstchild
+
+lastchild
+
+childnodes
+
+document.body
+
+document.body.chileNodes - NodeList(9) [text, div.container, text, script, text, comment, text, script, text]
+document.body.childNodes[1].childNodes
+
+NodeList(11) [text, div.box, text, div.box, text, div.box, text, div.box, text, div.box, text]
+
+let cont = document.body.childNodes[1]
+undefined
+cont
+<div class=​"container">​…​</div>​
+cont.firstChild
+#text
+cont.firstElementChild
+<div class=​"box">​Box1​</div>​
+
+parent node
+
+let cont = document.body.childNodes[1]
+undefined
+cont.lastElementChild.parentElement
+<div class=​"container">​…​</div>​
+
+PreviousElementsibling or PreviousSibling
+
+child nodes of first element child
+
+document.body.firstElementChild
+<div class=​"container">​…​</div>​
+document.body.firstChild.childNodes
+NodeList []
+document.body.firstElementChild.childNodes
+NodeList(11) [text, div.box, text, div.box, text, div.box, text, div.box, text, div.box, text]
+
+if we need only elements
+
+document.body.firstElementChild
+<div class=​"container">​…​</div>​
+document.body.firstElementChild.children
+HTMLCollection(5) [div.box, div.box, div.box, div.box, div.box]
+
+if we have a table then we can do the following
+
+document.body.childred[index]
+
+then get all details regarding tables
+
+ table.rows
+
