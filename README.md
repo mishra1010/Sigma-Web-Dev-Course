@@ -950,3 +950,24 @@ use object for production grade solution where we can use keys and values
 Write a program to calculate factorial of a number using reduce and for loops
 6! = 6*5*4*3*2*1
 use for and reduce
+
+## Day 66 - Document Object Model in JS
+Tree like structure representation for JS Dom and advantages of the same
+DOM - Document object Model
+BOM - Browser object Model
+Window is the global object which has DOM, BOM and Javascript core
+This helps us to target elements using javascript and then perform any actions
+DOM - Mapping of the entire document in to an object which gives you all the content of the page. DOM represents the page content as Html.
+BOM - Apart from document if we have to work with any other elements then BOM provides the additional objects to be used.
+
+window
+Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+window.document - gives the document
+window.document.body - gives the body
+select any element in the page and try to do a $0 in console, you will be able to refer the object. This is from BOM
+$0.style.backgroundColor = "green"
+
+Document -> Root Element
+Root Element -> Element Head, Element body
+Element Head -> Element Title -> Title
+Element body -> Element h1 -> text, Element p->text
