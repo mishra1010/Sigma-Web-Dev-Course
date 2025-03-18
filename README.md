@@ -1096,3 +1096,81 @@ Factorial problem solved in Day 69 folder
 ## Javascript - Day 70 Exercise
 
 Given 5 boxes, assign a random background color to each box using Dom concepts
+
+## Day 71 - Inserting and Removing elements from DOM using Javascript
+This is useful while making single page applications or we want the work to be done without loading the page.
+
+document.querySelector(".box")
+<div class=​"box">​ Hey I am a Box ​</div>​
+document.querySelector(".box").innerHTML
+'\n            Hey I am a Box\n        '
+
+document.querySelector(".container").innerHTML
+'\n        <div class="box">\n            Hey I am a Box\n        </div>\n        <div class="box">i am box2</div>\n    '
+
+document.querySelector(".container").innerText
+'Hey I am a Box\ni am box2'
+
+ outer html - we get the container and whatever is inside container
+
+ document.querySelector(".container").outerHTML
+'<div class="container">\n        <div class="box">\n            Hey I am a Box\n        </div>\n        <div class="box">i am box2</div>\n    </div>'
+
+ document.querySelector(".container").tagName
+'DIV'
+
+tagName is used for Element and NodeName is used for any node like coment node or text node.
+
+document.querySelector(".container").textContent
+'\n        \n            Hey I am a Box\n        \n        i am box2\n    '
+
+hasAttribute
+
+hidden
+
+getAttribute
+
+attributes - gives all attributes
+
+removeAttributes - removes Attributes mentioned in ()
+
+document.designMode=on, use this to make any changes to the website
+
+Data Attributes
+
+data-createdby="Deep"
+
+document.querySelector(".box").dataset
+
+Insertion Methods in node
+
+node.append()
+
+prepend
+
+before
+
+after
+
+Insert adjacent HTML/Text/Element
+
+insertAdjacentHTML("afterend","<b>i am inserted after end </b>")
+beforebegin
+beforeend
+afterbegin
+
+Node Removal
+
+ClassName and classList
+
+document.querySelector(".container").classList
+DOMTokenList ['container', value: 'container']
+
+document.querySelector(".container").className
+'container'
+
+classList.add
+
+classList.remove
+
+classList.toggle()
