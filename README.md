@@ -1174,3 +1174,10 @@ classList.add
 classList.remove
 
 classList.toggle()
+
+## Day 72 - Solution for Exercise Day 70
+
+Available in folder Day 72
+done for generating random number from 0 to 255 with rgb function
+
+Also generate random hex function by using tostring(16) to convert to hexa number to generate color
