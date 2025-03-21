@@ -1193,3 +1193,32 @@ function createCard(title,cname,views,monthsOld,duration,thumbnail){
 }
 
 createCard("Introduction to Backend | Sigma Web Dev video #2","sigma",560000,7,"31:22",<URL></URL>);
+
+## Day 74 - Events, Event Bubbling, setInterval and setTimeout
+
+Why are events important and why these are used so much?
+
+Details around taking a mouse on an element, take out mouse from the element
+click, double click elements
+
+check browser events from MDN to see all events
+
+//https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent 
+
+What is event bubbling?
+
+When we click on child element, automatically parent elements are clicked and this is called event bubbling and if we want to stop this then we have to stop the propagation.
+Use e.stopPropagation()
+
+By this the event listener stops propagation.
+
+Like we add event Listeners, we can also remove event Listeners. use handler to add multiple events and also handler helps to remove listeners.
+
+Event object
+event.type
+event.clientx, clienty
+event.target
+setTimeout and set Interval
+
+setInterval helps in repeating operations and clearInterval stops the setInterval process.
+setTimeout - does the operation once and clearTimeout() - clears the timeout
