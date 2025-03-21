@@ -1181,3 +1181,15 @@ Available in folder Day 72
 done for generating random number from 0 to 255 with rgb function
 
 Also generate random hex function by using tostring(16) to convert to hexa number to generate color
+
+## Day 73 - Exercise to build dynamic website builder
+create a website builder
+
+HTML file should have cards
+JS should add the following with help of function
+
+function createCard(title,cname,views,monthsOld,duration,thumbnail){
+    //Finish the function
+}
+
+createCard("Introduction to Backend | Sigma Web Dev video #2","sigma",560000,7,"31:22",<URL></URL>);
