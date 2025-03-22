@@ -1222,3 +1222,55 @@ setTimeout and set Interval
 
 setInterval helps in repeating operations and clearInterval stops the setInterval process.
 setTimeout - does the operation once and clearTimeout() - clears the timeout
+
+## Day 75 - Javascript Callbacks and Promises
+
+Callback functions are used once we want to call a function once a function executes. Callback function is a function passed in to another function as an argument, which is then invoked inside the outer function to complete or action.
+
+Promises in Async Javascript
+
+Javascript asynchronous nature shows how the script flow works and its not linear
+
+lots of callback can create mess and hence leads to callback hell or callback doom. Hence, we use promises.
+
+Solution to callback hell is promise. Promise is a promise of code execution. use .then and .catch to settle or reject it.
+
+You can make your own promise as shown below but in most cases, its not needed
+
+let prom1 = new Promise ((resolve, reject) => {
+    setTimeout(() => {
+        console.log("Yes, i am done");
+        resolve("Deepak");
+    },1000);
+})
+
+prom1.then((a) => {
+    console.log(a);
+})
+
+.then -> resolve
+
+.catch -> reject
+
+finally - performs necessary cleanups, like close all files which were opened.
+
+Promises chaining - pass result of one promise to another. pass the result through the chain of then handlers
+
+if p is a promise
+p.then(handle1)
+p.then(handle2)
+p.then(handle3)
+
+all the above handles with run independently
+
+Promise.all - waits for all promises to be resolved or returns error
+
+Promise.allsettled - resolved or rejected, all promises status is received
+
+Promise.race - whichever resolves faster will be the outcome result
+
+Promise.any - waits for first promise to be resolved (not rejected)
+
+Promise.resolve
+
+Promise.reject
