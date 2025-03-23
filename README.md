@@ -1274,3 +1274,31 @@ Promise.any - waits for first promise to be resolved (not rejected)
 Promise.resolve
 
 Promise.reject
+
+## Day 76 - Async/Await and Fetch API in JS
+
+In all big code bases we would see Async/await functionality used in JS. How this makes easier while dealing with promises.
+Callback - passing a function as argument in another function and calling it inside the function
+Promise - promise of code execution
+
+//How to wait to execute the promise and then execute the next prints
+//executes when promise is fulfilled after line 16
+// data.then((v) => {
+//     console.log(data);
+    
+//     console.log("process data");
+// })
+
+//Now we would see aync await way to wait for promise, mark function as async which will make it run in background
+
+//if we need to wait for the async function to complete, we can use await keyword and then line 17 and 18 will execute
+
+//await can only be used in async function and hence we will create one more function and call it from there
+
+Better to use async, await than using .then()
+
+Settle means resolve or reject
+
+resolve means promise has settled successfully
+reject means promise has not settled successfully
+
