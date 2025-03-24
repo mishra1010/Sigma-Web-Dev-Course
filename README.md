@@ -1302,8 +1302,25 @@ Settle means resolve or reject
 resolve means promise has settled successfully
 reject means promise has not settled successfully
 
-## Day 77 - Exercise Day 73
+## Day 77 - Exercise Day 73 solution
 
 Solution is in folder Day 77
 
 In index.html design the view for 1 card and then in JS, design the card for next runs to be created dynamically
+
+## Day 78 - Exercise - Async JS
+
+Hackers Terminal
+ Create a hacking simulator which has green background and it shows these messages with randon delay of 1 to 7 seconds
+    
+    Initializing Hacking....
+
+    Reading Files...
+
+    Password files detected...
+
+    Sending all passwords and personal files to server...
+     
+    Cleaning up...
+
+    The three dots must blink so that it looks like a real terminal
