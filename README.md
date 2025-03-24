@@ -1320,7 +1320,18 @@ Hackers Terminal
     Password files detected...
 
     Sending all passwords and personal files to server...
-     
+
     Cleaning up...
 
     The three dots must blink so that it looks like a real terminal
+
+## Day 79 - JS Error handling with try catch
+
+How to handle errors in Javascript
+
+throw customerrors
+
+and use try and catch to handle errors. Try and catch work synchronously
+
+Finally is executed all times. example - clean up resources . This is helpful in case of functions as no code block runs after return statement in function in try or catch block
+
