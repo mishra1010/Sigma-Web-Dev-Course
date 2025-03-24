@@ -1302,3 +1302,8 @@ Settle means resolve or reject
 resolve means promise has settled successfully
 reject means promise has not settled successfully
 
+## Day 77 - Exercise Day 73
+
+Solution is in folder Day 77
+
+In index.html design the view for 1 card and then in JS, design the card for next runs to be created dynamically
