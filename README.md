@@ -1376,3 +1376,8 @@ l instanceOf Lion
 VM584:1 Uncaught SyntaxError: Unexpected identifier 'instanceOf'
 l instanceof Lion
 true
+
+## Day 81 - Exercise Day 78 solution
+
+Async/Await
+
