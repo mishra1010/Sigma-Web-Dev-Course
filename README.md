@@ -1335,3 +1335,44 @@ and use try and catch to handle errors. Try and catch work synchronously
 
 Finally is executed all times. example - clean up resources . This is helpful in case of functions as no code block runs after return statement in function in try or catch block
 
+## Day 80 - JS Classes & Objects
+classes, objects and constructors
+
+JS objects come with prototype object which has lots of additional properties by default
+
+let obj = {
+    a: 1,
+    b: "Deepak"
+}
+
+console.log(obj);
+
+x.__proto__ = animal - is a prototype object
+
+Prototype mainly helps with inheritance. We cannot just work with prototypes. We would need to create classes when we want to do proper object oriented programming.
+
+Animal Constructor is initiated
+a.eats()
+Animal eats
+undefined
+a.run
+undefined
+
+we can set a lot of properties in a class
+
+Method overriding
+super keyword
+
+Static Methods - directly called from class
+getters and setters - implemented
+
+Not much used in JS - Object oriented programming
+
+instanceOf
+
+l instanceof Animal
+true
+l instanceOf Lion
+VM584:1 Uncaught SyntaxError: Unexpected identifier 'instanceOf'
+l instanceof Lion
+true
