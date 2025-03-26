@@ -1380,4 +1380,65 @@ true
 ## Day 81 - Exercise Day 78 solution
 
 Async/Await
+solution in Day 81 folder
 
+## Day 82 - Advanced JS
+
+Destructuring
+
+ let [x, y, ...rest] = [1, 5,7,2,8,4]; // ... destructuring
+    console.log(x,y, rest);
+
+     //object destructuring
+    let obj = {
+        a: 1,
+        b: 2,
+        c: 3
+    }
+    let {a, b} = obj; // means take out a,b from this object
+    console.log(a,b);
+
+Spread operator
+
+   let arr = [2,4,6];
+    console.log(sum(arr[0], arr[1], arr[2]));
+//or spread operator
+    console.log(sum(...arr));
+})()
+
+//spread operator
+
+function sum(a,b,c){
+    return a+b+c;
+}
+
+special case - const arr = [1,2,6]
+const obj = {...arr} - this gives {0:1, 1:2, 2:6}
+
+IIFE
+
+function had to be declared as async to use await sleep. else it was throwing error
+
+(async function main(){
+    let a = await sleep();
+    console.log(a);
+    let b = await sleep();
+    console.log(b);
+})()
+
+Hoisting - Hoisting refers to the process whereby the interpreter appears to move the declarations to the top of the code before execution
+
+variables can thus be referenced before they are declared in JS. 
+Only applicable for var and not in case of let or const
+
+works for functions as well
+
+hello("x")
+
+function hello(name){
+    ... => works
+}
+
+Block, function, global scope
+
+variables declared in a block are scoped to that block and same goes for function and if declared outside then its global and can be accessed by all.
