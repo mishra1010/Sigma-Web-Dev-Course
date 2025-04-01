@@ -1490,3 +1490,18 @@ JSON.parse(localStorage.getItem("guys")
 VM600:1 Uncaught SyntaxError: missing ) after argument list
 JSON.parse(localStorage.getItem("guys"))
 {x: 1, y: 2}
+
+## Day 84 - Spotify clone
+
+1. check spotify site, background color is black
+2. There are 2 sections in the site. Top spotify is a svg, find it by using shift alt i and click arrow in the bottom menu. then copy the svg code for spotify and add it in svg file along with html, css files
+3. then open in live server svg file won't load and hence get the svg spec added which is xmlns="http://www.w3.org/2000/svg"
+4. Next is - we will comment the svg code and create 2 divs left and right and then create utility css-
+5. Utility css has all the utility styles needed like border, margin, padding, flex, justify-center etc
+6. Identify color of boxes and update the same in left and right boxes along with containers
+7. create margin and padding for all along with font family
+8. Use invert in utility to change color from black to white
+9. copy all svg files like home, search, library
+10. get robotica font from google, import statement and then add font-family in * for all in css
+11. get the element from the footer, use AI to remove all classes and put in footer
+12. give absolute position for footer and relative for library with height of library as 80vh
