@@ -1505,3 +1505,24 @@ JSON.parse(localStorage.getItem("guys"))
 10. get robotica font from google, import statement and then add font-family in * for all in css
 11. get the element from the footer, use AI to remove all classes and put in footer
 12. give absolute position for footer and relative for library with height of library as 80vh
+
+Right panel Design and Code for spotify
+
+
+
+
+## Day 85 - Backend, Node.js and npm
+
+Install node js
+node --version
+npm --version
+
+npm init in the folder
+give details and finally give yes
+use npm to download and run projects using node
+
+nodejs.tutorials
+
+express js is a middleware
+
+
