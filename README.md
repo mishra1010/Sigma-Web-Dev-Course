@@ -1525,4 +1525,35 @@ nodejs.tutorials
 
 express js is a middleware
 
+## Day 86 - commonjs vs Ecmascript
 
+Node js has 2 modes in which we can create projects
+
+1. ECMAscript
+2. Commonjs
+
+Go to project folder and initialize npm project
+
+npm init -y
+
+Install express modules
+
+npm i express jsonwebtoken dotenv
+
+npm install --global nodemon
+
+nodemon main.js
+
+nvm - node version manager
+
+nvm use 16
+
+nvm install 15
+
+import modules with require - commonjs and synchronous - const { createServer } = require('node:http'); - remove module from type in package.json
+
+import modules with export and import and type module - ECMA Script (ES6 module) and asynchronous - import http from "http"
+
+We can use the export in modules as well in browser by using html
+
+when we use require, node js creates a function in background with __dirname, __filename as arguments and we can use these values.
