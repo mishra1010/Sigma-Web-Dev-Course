@@ -1557,3 +1557,20 @@ import modules with export and import and type module - ECMA Script (ES6 module)
 We can use the export in modules as well in browser by using html
 
 when we use require, node js creates a function in background with __dirname, __filename as arguments and we can use these values.
+
+## Day 87 - working with files:fs and path modules
+fs module - how to use to read files
+how to use promises to read and write a file or from file
+callback hell
+
+const fs = require("fs");
+
+console.log(fs);
+
+JS also gives a functionality to use fs with promises to avoid callback hell as shown in main.js
+lets implement mainpromise.js
+
+import fs from "fs/promises";
+
+path , path functions by doing console.log(path), then extname, basename, join()
+
