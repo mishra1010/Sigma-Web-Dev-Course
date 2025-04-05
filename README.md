@@ -1574,3 +1574,43 @@ import fs from "fs/promises";
 
 path , path functions by doing console.log(path), then extname, basename, join()
 
+## Day 88 - Introduction to Express js
+
+Why to use express?
+it's a web framework for making websites. HTTP package has limited capabilities, like we cannot serve static files, security needs to be implemented from scratch, get/post need custom code, how to manage server. So Express framework is there
+
+use nodemon
+
+nodemon main.js - watches for any changes and restarts server
+
+install express
+npm i express --- install 
+
+check express documentation and get hello world code
+
+if we put endpoints as following, then we will have so many
+
+app.get('/blog/intro-to-js', (req,res) => {
+    res.send('Hello intro-to-js!')
+})
+app.get('/blog/intro-to-python', (req,res) => {
+    res.send('Hello intro-to-python!')
+})
+
+Better to use express js as we can use variables
+
+app.get('/blog/:slug', (req,res) => {
+    res.send(`Hello ${req.params.slug}`)
+})
+
+params, query
+
+do a console.log(req) -> we get all params, queries, headers
+
+http://localhost:3000/blog/intro-to-py?mode=dark&region=in
+[Object: null prototype] { slug: 'mysite' } -> param
+[Object: null prototype] { mode: 'dark' } -> query
+
+static files
+
+app.use(express.static('public')) -- put files in public folder to show, folder name can be anything.
