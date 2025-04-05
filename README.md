@@ -1614,3 +1614,56 @@ http://localhost:3000/blog/intro-to-py?mode=dark&region=in
 static files
 
 app.use(express.static('public')) -- put files in public folder to show, folder name can be anything.
+
+## Day 89 - Response, request and routers in Express
+
+Get, post, put requests 
+
+Get - basic request to get details from a server
+
+POST - for sensitive data, files, content of page - sent to server using post
+
+chaining of requests
+
+individual requests -
+app.get('/', (req, res) => {
+    console.log('GET request received')
+    res.send('Hello World!!!! Get')
+})
+
+app.post('/', (req, res) => {
+    console.log('POST request received')
+    res.send('Hello World!! Post')
+})
+
+app.put('/', (req, res) => {
+    console.log('PUT request received')
+    res.send('Hello World!! Put')
+})
+
+chain requests
+
+app.get('/', (req, res) => {
+    console.log('GET request received')
+    res.send('Hello World!!!! Get')
+}).post('/', (req, res) => {
+    console.log('POST request received')
+    res.send('Hello World!! Post')
+}).put('/', (req, res) => {
+    console.log('PUT request received')
+    res.send('Hello World!! Put')
+})
+
+serving HTML files - All real world projects need to serve html
+app.use(express.static('public')); - this is a middleware which serves html files
+
+we also have res.download(), res.end(), .json(), .jsonp, .redirect(), .render(), .send(), .sendFile(), .sendStatus()
+
+create templates folder and add index.html file here
+
+
+Installing Postman - download and use to test all api requests, we need not write code for every tests.
+
+Express Router - Helps to organize files like main.js for endpoints
+more endpoints would be organized properly
+helps to make routes at a central place
