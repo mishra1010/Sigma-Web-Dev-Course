@@ -1667,3 +1667,32 @@ Installing Postman - download and use to test all api requests, we need not writ
 Express Router - Helps to organize files like main.js for endpoints
 more endpoints would be organized properly
 helps to make routes at a central place
+
+## Day 90 - Middlewares in Express JS
+
+npm init -y
+
+npm i express@4
+
+nodemon
+
+Any request goes to middleware first and then goes to next methods of the api
+
+request -> middleware -> Handler matches -> response
+
+Middleware modifies the request, gets request, executes and then any apis
+
+if we do not mention next in middleware then our request gets stuck. if response is sent once then work of middleware is over and no next steps get executed
+We can have multiple middlewares and pass the control amongst these
+order is important in middleware
+Why middleware?
+helps in logging, cookie validation, login etc.
+
+Types -
+Application level
+Router level
+Error handling
+Builtin
+Third party - parser
+
+
