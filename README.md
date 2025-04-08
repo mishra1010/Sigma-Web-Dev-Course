@@ -1697,4 +1697,32 @@ Third party - parser
 
 ## Day 91 - Exercise 15 - Clear the clutter
 
+Details are mentioned in index.js
+
+## Day 92 - ejs template engine in Express
+
+npm init -y
+npm i express@4
+
+Template engine - EJS -> helps to show content in the html file from the api responses. show variables inside the bootstrap html templates
+
+check page for ejs usage with express
+
+1. set view engine - ejs or pug or template engine handlebars
+2. Use res.render
+3. pass variables res.render("templates/blogpost.html", {blogTitle: blogTitle, blogContent: blogContent});
+4. rename templates folder with views as this is the folder which needs to be there
+5. change index.html to index.ejs
+6. In main.js render index
+7. load localhost:3000
+8. we see siteName variable name but not value
+9. so, we need to add <%= siteName %> for getting the value
+10. how to pass objects? we can declare an array variable and then get it printed in the ejs page by passing value
+<%= arr[0] %>
+11. We can include navbar by using navbar.js and include in other ejs pages
+12. we can add headers and footers in all pages
+
+How to make great websites?
+Use bootstrap - get helloworld with cdn and then navbar
+
 
