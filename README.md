@@ -1726,3 +1726,42 @@ How to make great websites?
 Use bootstrap - get helloworld with cdn and then navbar
 
 
+## Day 93 - Day 91 Exercise solution
+
+// You have to write a Node.js program to clear clutter inside a directory and organize the contents of that directory in to different folders.
+
+// for example, these files become:
+
+// 1. name.jpg
+// 2. name.png
+// 3. this.pdf
+// 4. Deep.zip
+// 5. Mani.zip
+// 6. cat.jpg
+
+//this
+//jpg/name.jpg, jpg/cat.jpg
+//png/name.png
+//zip/Deep.zip, zip/mani.zip
+
+solution available in Day 93
+
+## Day 94 - Mongo DB and Mongo DB Compass
+
+Install Mongo DB
+Install Mongo compass
+Install vscode extension for mongodb
+generate records in gpt
+create a playground
+Insert many records in to Mongodb
+
+## Day 95 - CRUD operations in MongoDB
+
+How to do CRUD operations via code
+
+let a = db.courses.find({price: {$gt: 20000}})
+console.log(a.count())
+console.log(a)
+db.courses.updateOne({price: 21000}, {$set: {price:30000}})
+db.courses.deleteOne({price: 19000})
+
