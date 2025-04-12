@@ -1765,3 +1765,27 @@ console.log(a)
 db.courses.updateOne({price: 21000}, {$set: {price:30000}})
 db.courses.deleteOne({price: 19000})
 
+## Day 96 - Installing Mongoose & Using it with Express
+
+Mongoose - MongoDB ODM - we will see why we will be using this
+helps with typecasting, helps in providing a schema based solution where it becomes easier for query building, validation and typecasting
+
+Advantage of using Mongoose instead of using raw package - //explore https:npmjs.com/package/mongodb
+
+Mongoose makes big application building easier due to functionalities it provides.
+
+Does type validations
+
+find data
+app.get('/a', async (req, res) => {
+    let todo = await Todo.findOne({})
+    console.log(todo)
+  res.json({title: todo.title, desc: todo.desc})
+})
+
+create Todo.js, export, import in main.js
+add the above get function to pull data
+create object to create a data in database
+
+
+
