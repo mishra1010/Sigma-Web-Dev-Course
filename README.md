@@ -1807,3 +1807,24 @@ Dummy Data Generator
 //create an Express app with mongoose to achieve it
 
 //Everytime the button is clicked, you should clear the collection
+
+## Day 98 - Tailwind CSS in one video
+used to build css faster, just a way to write CSS
+
+https://play.tailwindcss.com/
+
+inpm init -y
+npm install -D tailwindcss // -D helps in getting and installing this package as a dev dependency
+npx tailwindcss init -- does not work
+npx tailwindcss-cli@latest init -p ------ works
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+modify content in tailwind config file and 
+then
+//watch tailwind files
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -- does not work
+
+npx tailwindcss-cli -i ./src/input.css -o ./src/output.css --watch - generates output.html - This command checks input file and the content there along with utility classes in index.html to ensure bundle size is less
