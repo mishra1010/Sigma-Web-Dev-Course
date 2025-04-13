@@ -1828,3 +1828,95 @@ then
 npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -- does not work
 
 npx tailwindcss-cli -i ./src/input.css -o ./src/output.css --watch - generates output.html - This command checks input file and the content there along with utility classes in index.html to ensure bundle size is less
+
+## Day 99 - Exercise Day 97 solution
+
+Dummy data generator
+
+00:00:35 🚀 Setting Up the Project
+- Demonstrates setting up a Node.js project using npm, initializing, and installing Express.
+- Discusses the importance of using a specific version of Express for the course continuity.
+00:02:12 🎨 Using EJS with Express
+- Shows how to incorporate EJS as a templating engine in the Express setup.
+- Guides on creating a 'views' folder and installing EJS for rendering templates.
+00:04:12 🛠️ Enhancing Front-end with Bootstrap
+- Describes using Bootstrap for quick UI development, emphasizing its efficiency.
+- Explains adding components like buttons and containers to improve application design.
+05:13 📸 Image and Script Integration
+- Discussion on adding images and basic script functionality,
+- Added image placeholder and addressed initial visual display,
+- Implemented a script to react to button clicks.
+06:22 🔄 API and Event Handling
+- Set up an event listener to handle button clicks generating data via API,
+- Demonstrated checking button functionality with console logs,
+- Began preparing an asynchronous function to manage JSON data retrieval.
+08:03 🗄️ Database Connection and Model Setup
+- Discussed setting up a connection to a local MongoDB database,
+- Explained creating a Mongoose model for employee data,
+- Used boilerplate code to define schema with fields: name, salary, language, city, etc.
+10:33 🧑‍💼 Module Export and Import for Employees
+- Discusses use of `module.exports` to structure the employee module,
+- Introduces a method to loop and create employee data for testing purposes,
+- Explanation includes setting up a loop to create data multiple times.
+12:10 🛠️ Error Handling and Debugging in Node.js
+- Confronts a server crash issue due to incorrect usage of `async` and `await`,
+- Solves a problem with Mongoose where `await` usage outside a sync function caused errors.
+13:34 🌐 Generating Random Employee Data
+- Successfully generates and verifies documents within MongoDB,
+- Demonstrates how console logging varies between backend and frontend environments.
+14:27 📊 Creating Random Data Arrays
+- Sets up arrays with random names and cities to simulate diverse employee data,
+- Begins constructing a utility function to handle random data selection for testing scenarios.
+15:47 🎲 Handling Randomized Data Generation
+- Discussion on generating random numbers and using them in a dataset.
+- Implementation of a random number function that picks random elements from an array,
+- Application of `Math.random` and `Math.floor` to ensure integers are generated for salaries within a specific range.
+18:18 🔄 Adjustments and Debugging
+- Making necessary corrections to the code to ensure proper random data generation and troubleshooting errors.
+- Addressing incorrect salary generation issue by adjusting the random multiplication factor,
+- Ensuring `isManager` boolean toggle works as intended by adjusting the random threshold.
+18:59 🗑️ Collection Management
+
+Here’s a step-by-step guide to complete the project in the Day 99 folder:
+
+1. Set Up the Project
+Ensure you have Node.js and MongoDB installed on your system.
+Navigate to the Day 99 folder in your terminal:
+2. Install Dependencies
+Install the required Node.js packages:
+3. Set Up MongoDB
+Start your MongoDB server if it’s not already running:
+Open the MongoDB shell and create the company database:
+4. Create the Employee Model
+Ensure you have a models folder with a file named employee.js inside it.
+Define the Employee schema in models/employee.js:
+5. Set Up the Views
+Create a views folder in the Day 99 directory.
+Inside the views folder, create a file named index.ejs:
+6. Run the Application
+Start the server:
+You should see the message:
+7. Test the Application
+Open your browser and navigate to:
+You should see the welcome message and a link to generate random employee data.
+8. Generate Random Employee Data
+Click the "Generate Random Employee Data" link or visit:
+This will:
+Clear the employees collection in the company database.
+Generate 10 random employee records.
+Log the generated records in the terminal.
+9. Verify the Data in MongoDB
+Open the MongoDB shell and check the employees collection:
+10. Enhance the Application (Optional)
+Display the generated employee data on the /generate page by passing the data to the index.ejs file:
+Update the index.ejs file to display the employee data:
+Summary of Key Files:
+main.js: Handles routes and server setup.
+models/employee.js: Defines the Employee schema.
+views/index.ejs: Displays the data.
+
+npm init -y
+npm i express@4
+npm i ejs
+npm i mongoose
+nodemon main.js
