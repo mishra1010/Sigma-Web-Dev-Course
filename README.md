@@ -1920,3 +1920,24 @@ npm i express@4
 npm i ejs
 npm i mongoose
 nodemon main.js
+
+## Day 100 - Exercise Use tailwindcss to show a card
+
+![alt text](images/image14.png)
+
+Design layout.png using node.js and tailwind.css
+
+
+## Day 103 - Hosting
+
+Deploy apps in cloud data center in specific regions
+Shared Hosting
+Dedicated Hosting
+Managed Hosting
+
+npm i dotenv --- creates a .env file where we can store creds, env variables
+accessing secret - require('dotenv').config()
+
+apache is used to host website
+copy html file in var/www/html folder
+access by using ip
