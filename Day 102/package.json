@@ -1,0 +1,23 @@
+{
+  "name": "designthelayout",
+  "version": "1.0.0",
+  "description": "solution for exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "npx tailwindcss-cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [
+    "js",
+    "tailwind"
+  ],
+  "author": "Deepak",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^6.3.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.4"
+  }
+}

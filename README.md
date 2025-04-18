@@ -1818,6 +1818,7 @@ npm install -D tailwindcss // -D helps in getting and installing this package as
 npx tailwindcss init -- does not work
 npx tailwindcss-cli@latest init -p ------ works
 
+input.css-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -1826,6 +1827,7 @@ modify content in tailwind config file and
 then
 //watch tailwind files
 npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -- does not work
+npm i vite ---- for local server
 
 npx tailwindcss-cli -i ./src/input.css -o ./src/output.css --watch - generates output.html - This command checks input file and the content there along with utility classes in index.html to ensure bundle size is less
 
@@ -1927,6 +1929,10 @@ nodemon main.js
 
 Design layout.png using node.js and tailwind.css
 
+## Day 102 - Exercise Day 100
+
+Design layout.png using node.js and tailwind.css
+
 
 ## Day 103 - Hosting
 
@@ -1941,3 +1947,14 @@ accessing secret - require('dotenv').config()
 apache is used to host website
 copy html file in var/www/html folder
 access by using ip
+
+
+## Day 104 Hosting an Express App on ubuntu VPS uning Hostinger
+
+1. Get a linux machine server in hostinger
+2. Install nodejs and build essentials apt-get install -y nodejs , apt-get install build-essential
+3. create a sample node.js app
+4. Install pm2 and launch your app
+5. Install nginx and add necessary configurations
+6. Test and restart nginx
+7. 
