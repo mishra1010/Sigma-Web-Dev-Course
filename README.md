@@ -1932,6 +1932,8 @@ Design layout.png using node.js and tailwind.css
 ## Day 102 - Exercise Day 100
 
 Design layout.png using node.js and tailwind.css
+Design Card 
+Day 73 has similar card without tailwindcss
 
 
 ## Day 103 - Hosting
@@ -1957,4 +1959,58 @@ access by using ip
 4. Install pm2 and launch your app
 5. Install nginx and add necessary configurations
 6. Test and restart nginx
-7. 
+
+## Day 105 - What is React and Why use React?
+
+We have a plain html file with 3 boxes and apply style on the same.
+3 boxes with different contents. Now if we want to change content of 3 boxes in certain amount of time, then we will apply JS setTimeout() to change the innerHTML by using document.querySelector
+
+What react says here is to create a variable and update this variable. No need for innerHTML and all. This can be done by using state concept in react which we will see later.
+
+With react - code can be broken down in to modular components. Like we can make a navbar (component) once and not make it again and again, reuse it across.
+1. We can use states, once we update variables it can be used across
+2. We can define components and use these as props (variables in react) across 
+
+React is a library written in JS. check the withoutreact html file where we write eventlistener inside a script to get the value of counter and click on button to increment the counter.
+
+React says not to write html and use JSX
+create react app - npx create-react-app with-react
+we get an npm project with base react modules and we need to build on top of this
+npm start --- starts a server where react app can be rendered
+variable which can be used in dom and also can be changed is called state
+
+function App() {
+  const [value, setValue] = useState(0);
+  return (
+    <div className="App">
+      <div className="value">{value}</div>
+      <button onClick = {() =>{setValue(value+1)}}>Click me</button>
+    </div>
+  );
+}
+
+Components
+Install extension ES7 React/Redux/GraphQL/React-Native snippets
+ES7+ React/Redux/React-Native snippets
+create navbar component and use it in the app at various places
+Type rafce to get react arrow function export component
+Create component navbar,js
+import component in App.js
+Use component in App.js
+We can also pass data in components by using props
+
+const Navbar = (props) => {
+  return (
+    <div>
+      <div className="logo">{props.logoText}</div>
+
+App.js
+  <Navbar logoText="CWH" />
+
+  1. We can use states to update state variables
+  2. We can split our app into multiple components and reuse those components
+  3. React uses a virtual DOM to efficiently update the UI which is better than updating content using DOM manipulation
+  4. Debugging and maintenance is easy
+
+  ## Day 106 - Components, props and JSX in React
+  
