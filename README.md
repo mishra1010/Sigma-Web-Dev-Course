@@ -2013,4 +2013,16 @@ App.js
   4. Debugging and maintenance is easy
 
   ## Day 106 - Components, props and JSX in React
+
+  Use vite to create react app
+  npm create vite@latest
+  appname - first-app
+  cd first-app
+  npm i
+  npm run dev --- starts vite server
+
+  entry point for the app is App.jsx here
+
+  JSX is format where html and JS can both be leveraged, it's strict - tags need to be closed, always return only one object or <></> or div etc. ,className has to be used,
+
   
