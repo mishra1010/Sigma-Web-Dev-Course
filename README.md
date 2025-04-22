@@ -2025,4 +2025,19 @@ App.js
 
   JSX is format where html and JS can both be leveraged, it's strict - tags need to be closed, always return only one object or <></> or div etc. ,className has to be used,
 
-  
+  ## Day 107 - Hooks and State in React
+
+  npm create vite@latest
+Then do 
+npm i in the project folder
+npm run dev
+
+The page opens the vite react page and the count goes on increasing without reloading the page
+
+React hooks are functions which helps us
+
+ex - useState(0)--- is a function
+const [count, setCount] = useState(0)
+
+useState ensures that value of setCount can be updated based on the logic we write. State hook lets a component remember information like user input
+
