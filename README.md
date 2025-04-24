@@ -2041,3 +2041,45 @@ const [count, setCount] = useState(0)
 
 useState ensures that value of setCount can be updated based on the logic we write. State hook lets a component remember information like user input
 
+## Day 108 - useEffect hook in React
+ npm create vite@latest  --- use . so that we do not create a folder and then all components
+Then do 
+npm i in the project folder
+npm run dev
+
+useEffect is used to give side effects in react. When our component is rendered, we want something to happen like data fetch, log something etc.
+
+  useEffect(() => {
+    alert("Wlcome to the Vite + React app!")
+  
+    
+  }, [])
+
+    // case 1: run on every render
+  useEffect(() => {
+    alert("I will run on every render")
+  })
+
+  // case 2: run only on first render
+  useEffect(() => {
+    alert("Welcome, I will run on first render")
+  }, [])
+  
+//Case 3: run on every render when count changes
+  useEffect(() => {
+    alert("I am running when any count changes")
+    setColor(color + 1)
+  }, [count])
+  
+  clean up component or unmount
+
+  when component like navbar is commented or removed
+
+  the return statement is executed
+   useEffect(() => {
+      first
+    
+      return () => {
+        alert("I am running when the component is unmounted")
+      }
+    }, [third])
