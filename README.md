@@ -2083,3 +2083,57 @@ useEffect is used to give side effects in react. When our component is rendered,
         alert("I am running when the component is unmounted")
       }
     }, [third])
+
+    this is mainly used for conditional rendering
+
+## Day 109 - UseRef hook in React
+
+Whenever state is changed, it triggers a re-render
+
+Use Case 1 -state persistence
+
+In the basic app, when value of count is changed, re-render will run. Following example shows
+
+function App() {
+  const [count, setCount] = useState(0)
+  let a = 0;
+
+  useEffect(() => {
+    a = a+1
+  console.log(`re-rendering page + ${a}`)
+  })
+
+  re-rendering page + 1
+
+App.jsx:12 re-rendering page + 2
+
+14App.jsx:12 re-rendering page + 1
+
+The value of a is always reset due to re-rendering and so its set to 0 and then 1
+
+useRef helps in maintaining the current state of a and does not re-initializes the value of a.
+
+const a = useRef(0)
+  useEffect(() => {
+    a.current = a.current + 1
+    console.log(`re-rendering page + ${a.current}`)
+  })
+
+re-rendering page + 1
+
+App.jsx:18 re-rendering page + 2
+
+App.jsx:18 re-rendering page + 3
+
+App.jsx:18 re-rendering page + 4
+
+App.jsx:18 re-rendering page + 5
+
+Use Case 2 - Access dom elements
+
+we use ref to manage html objects and do not prefer dom manipulation to change html objects.
+
+any dom element can be accessed using ref.current
+
+can be useful for stop watch, focus on a html textbox or any control once we click, showing image when a button is clicked like left image, center , right
+
