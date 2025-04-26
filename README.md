@@ -2174,3 +2174,32 @@ Hint:
 create a state for the data which will be fetched using json placeholder API
 Inside useEffect, use fetch to populate that state and then use map to render the cards from that state
 
+## Day 112 - handling Events in React
+
+In js - we do addEventListener, need to make a different event handler
+
+In react - 
+
+1 <div className="button">
+        <button onClick={handleClick}>Click me</button>
+      </div>
+ 2     <div className="red" onMouseOver={handleMouseOver}>I am a red div</div>
+ 
+ 3 <input type = "text" name = "email" value={form.email} onChange={handleChange} />
+
+  const handleClick = () => {
+    alert('Button clicked!')
+  }
+
+  const handleMouseOver = () => {
+    alert('Mouse over the red div!')
+  }
+
+  const handleChange = (event) => {
+    //setName(event.target.value)
+    setForm({...form, [event.target.name]: [event.target.value]})
+    console.log(form)
+
+
+    3.1 const[form, setForm] = useState({})
+    <input type = "text" name = "email" value={form.email?form.email:""} onChange={handleChange} />
