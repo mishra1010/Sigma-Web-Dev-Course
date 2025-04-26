@@ -2087,7 +2087,7 @@ useEffect is used to give side effects in react. When our component is rendered,
     this is mainly used for conditional rendering
 
 ## Day 109 - UseRef hook in React
-
+npm create vite@latest
 Whenever state is changed, it triggers a re-render
 
 Use Case 1 -state persistence
@@ -2137,3 +2137,32 @@ any dom element can be accessed using ref.current
 
 can be useful for stop watch, focus on a html textbox or any control once we click, showing image when a button is clicked like left image, center , right
 
+## Day 110 - Conditional rendering and Rendering lists in React
+
+npm create vite@latest
+npm i
+npm run dev
+
+how to use conditional rendering to view lists
+
+using ternary operator conditional rendering is done (in case of if and else)
+{showbtn?<button>showbtn is true</button>: <button>showbtn is false</button>}
+
+if we want to display only if condition
+
+{showbtn && <button>showbtn is true</button>}
+
+Now lists
+
+create component, and then return the component below
+or get all details available in return below
+
+{todos.map(todo => {
+        return <div key={todo.id} >
+        <div className="todo">{todo.id}</div>
+        <div className="todo">{todo.title}</div>
+        <div className="todo">{todo.desc}</div> 
+        </div> /*<Todo key={todo.id} todo={todo}/>*/
+      })}
+
+## Day 111  - Exercise 18 - Display the cards
