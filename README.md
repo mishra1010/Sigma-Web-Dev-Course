@@ -2203,3 +2203,86 @@ In react -
 
     3.1 const[form, setForm] = useState({})
     <input type = "text" name = "email" value={form.email?form.email:""} onChange={handleChange} />
+
+## Day 113 - Solution for Exercise 18 - Day 111
+
+fetch data from API
+
+Display in UI
+
+Modify index.css for UI display
+
+ function App() {
+  //const [count, setCount] = useState(0)
+  const [cards, setcards] = useState([])
+
+  const fetchData = async () => {
+    let a = await fetch('https://jsonplaceholder.typicode.com/posts')
+    let data = await a.json()
+    setcards(data)
+    console.log(data)
+  }
+  useEffect(() => {
+   fetchData()
+  }, [])
+  
+  return (
+    <>
+    <Navbar />
+    <div className="container">
+      {cards.map((card) => {
+        return <div key={card.Id} className="card">
+          <h1>{card.title}</h1>
+          <p>{card.body}</p>
+          <span>By: UserId: {card.userId}</span>
+        </div>
+      })}
+      
+    </div>
+      
+    </>
+
+## Day 114 - ToDolist App using React and tailwind
+
+npm create vite@latest
+npm install -D tailwindcss postcss autoprefixer
+
+add following to tailwind.config.js
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  purge: [],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {},
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+
+Next remove content from index.css and add the following-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+npm run dev -- gives error
+
+run 
+npm install -D @tailwindcss/postcss7-compat
+
+Add following in postcss.config.js
+module.exports = {
+  plugins: [
+    require('@tailwindcss/postcss7-compat'),
+    require('autoprefixer'),
+  ],
+};
+
+Then run
+npm run dev
