@@ -2286,3 +2286,11 @@ module.exports = {
 
 Then run
 npm run dev
+
+## 13th May 2025
+
+1. Create Navbar component
+2. use rafce to get react functioon and tab. for this we need to install ES7 extensions and also tailwind intellisense extension
+3. Enable files autosave
+4. Add Navbar
+5. Update tailwind classes in navbar and add ul, li with a span and classes
