@@ -2294,3 +2294,74 @@ npm run dev
 3. Enable files autosave
 4. Add Navbar
 5. Update tailwind classes in navbar and add ul, li with a span and classes
+
+## 12th July 2025 - DOM
+
+Document object model
+
+HTML -> Everything is node (in the form of tree structure). image, div, body etc.
+
+We would need to do DOM manipulation here. Need to make changes in DOM to get what we want in our application. We need to learn the following
+
+Dom manipulation
+
+select element in html
+
+change text
+
+change html
+
+change css
+
+attribute
+
+event listeners
+
+Selection
+
+select element in html - by id, by classname, queryselector
+
+document.getElementById('abcd') - gets all technical properties of the element
+
+document.getElementsByClassName() - gets all technical properties of the element
+
+document.querySelector() - console.dir(x) - shows element details or properties. cosnole.log does not
+
+document.querySelectorAll() - nodelist is output which is not array but seems like that
+
+Manipulation -> can be change of text, can be some other actions as well
+
+innerText
+
+textContent
+
+innerHTML
+
+h1.hidden = true
+
+####Attribute Manupulation######
+
+getAttribute
+
+setAttribute
+
+removeAttribute
+
+###Dynamic DOM Manipulation####
+
+document.createElement("h1")
+h1.textContent = "Hello, i am doc"
+doicument.querySelector("body").prepend(h1) or .append(h1)
+
+document.body.append()
+
+removeChild()
+
+doicument.querySelector("h1")
+h1.style.color = "red"
+
+h1.classList.add("class1"), .remove(), .toggle()
+
+
+
+
