@@ -2362,6 +2362,8 @@ h1.style.color = "red"
 
 h1.classList.add("class1"), .remove(), .toggle()
 
+## 15th July 2025 - Events and Event Handling
+
 
 
 
